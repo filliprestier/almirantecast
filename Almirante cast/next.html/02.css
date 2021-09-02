@@ -1,0 +1,79 @@
+@charset "UTF8";
+
+@font-face {
+    font-family: 'babaca';
+    src: url('../Inter-ExtraBold.ttf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header {
+    font-family: 'babaca';
+    margin-top: 0%;
+    background-color: #1E1E26;
+    color: white;
+    text-align: center;
+    display: flex;
+}
+
+header > p {
+    font-family: 'babaca';
+    margin-top: 0%;
+    height: 100px;
+    background-color: #1E1E26;
+    color: white;
+    font-size: 80px;
+}
+
+img#imagem {
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+nav {
+    text-align: center;
+    background-color: #1E1E26;
+
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-family: 'babaca';
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+nav > a:hover {
+    background-color: red;
+    color: white;
+}
+
+article {
+    margin-top: 50px;
+    margin-left: 30px;
+    display: flex;
+}
+
+.pq {
+    border-radius: 10px;
+    box-shadow: black;
+}
+
+h2 {
+    margin-left: 10px;
+    margin-top: 30px;
+    margin: block;
+}
+

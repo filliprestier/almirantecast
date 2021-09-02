@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'babaca';
+    src: url('Inter-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'internacional';
+    src: url('Inter-Regular.ttf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("imagens/wall.jpg");
+}
+
+
+
+header {
+    font-family: 'babaca';
+    margin-top: 0%;
+    background-color: #1E1E26;
+    color: white;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    min-width: 300px;
+    max-width: 1366px;
+}
+
+img#imagem {
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+nav {
+    text-align: center;
+    background-color: #1E1E26;
+    
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-family: 'babaca';
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+nav > a:hover {
+    background-color: red;
+    color: white;
+}
+
+main {
+    font-family: 'babaca';
+    color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    min-width: 320px;
+    max-width: 800px;
+}
+
+div > h1 {
+    font-family: 'internacional';
+    font-size: 90px;
+    min-width: 320px;
+    max-width: 800px;
+}
+
+div > p {
+    padding-right: -150px;
+    font-size: 24px;
+    color: red;
+    font-family: 'babaca';
+    min-width: 320px;
+    max-width: 800px;
+}
+
+div#clica {
+    text-align: center;
+}
+
+#botaoo {
+    border-radius: 10px;
+}
+
+address#developer {
+    color: white;
+    font-size: 12px;
+}
+
+footer {
+    display: flex;
+}
